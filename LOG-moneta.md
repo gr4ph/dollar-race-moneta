@@ -78,11 +78,13 @@ The key lets the team check keywords and competitors on Etsy itself, which we ca
 ```
 Private tool to create draft listings and read stats for my own shop. I review and publish every listing myself.
 ```
-4. In Claude: open this session's **environment menu** (title bar) → **Edit** → **Network secrets** (or environment variables) → add a variable named `ETSY_API_KEY` whose value is your keystring and shared secret joined by a colon:
-```
-<keystring>:<shared_secret>
-```
-5. Never paste the key in chat or the repo.
+4. In Claude, open the environment menu in the session title bar → **Edit** → **Network secrets** → **Add secret**, and fill it in like this:
+   - **Secret type:** leave it on **Bearer**.
+   - **Allowed websites:** `openapi.etsy.com`
+   - **Path prefixes:** leave empty.
+   - **Custom headers:** change the header name to `x-api-key`, **delete the prefix** (leave it empty), and set the value to your keystring and shared secret joined by a colon, with no spaces: `<keystring>:<shared_secret>`.
+   - Open **See resolved curl example**. It should show `x-api-key: ***` and no "Bearer". Then tap **Add**.
+5. Start a new session so the secret takes effect. The key is added to Etsy API requests automatically; the team never sees it. Never paste it in chat or the repo.
 
 **R6. eRank (only if Etsy rejects the API app or it doesn't work)**
 1. Go to **erank.com** → sign up free → connect your Etsy shop.

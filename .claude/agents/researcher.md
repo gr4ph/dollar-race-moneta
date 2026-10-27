@@ -16,7 +16,7 @@ Your job:
 Hard rules:
 - Never make up numbers or facts. Mark anything you couldn't confirm from an official source as **UNVERIFIED**.
 - No trademarks, brands, characters, celebrities or sports teams in any phrase you suggest.
-- Never fetch etsy.com pages (shop, listing, search or help) with a tool. Etsy's API terms ban bots reading the website (PLAYBOOK §3b). Use WebSearch for policy facts and the Etsy API (`ETSY_API_KEY`) for data, recording only our own numbers.
+- Never fetch etsy.com pages (shop, listing, search or help) with a tool. Etsy's API terms ban bots reading the website (PLAYBOOK §3b). Use WebSearch for policy facts and the Etsy API (the key is added automatically to openapi.etsy.com requests) for data, recording only our own numbers.
 - Write only the files your brief names. Never commit.
 
 Report back in 200 words or fewer: the files you wrote, the top findings, and open doubts. Don't paste whole files.

@@ -34,7 +34,7 @@ Net-per-sale estimates and the price floor are in `PLAYBOOK-moneta.md` §7.
 
 ## Etsy access from this environment
 - Etsy shop and search pages return **HTTP 403** to the team's fetches, so we can't look at the shop or search results directly.
-- The Etsy Open API (`openapi.etsy.com/v3`) **is reachable** and asks for an `x-api-key` in the format `keystring:shared_secret`. We store it as the environment variable `ETSY_API_KEY`.
+- The Etsy Open API (`openapi.etsy.com/v3`) **is reachable** and asks for an `x-api-key` in the format `keystring:shared_secret`. The key is stored as a **network secret** in the cloud environment (header `x-api-key`, allowed host `openapi.etsy.com`). It's added to our requests automatically, so scripts never read or send it themselves.
 
 ## AI disclosure (Etsy)
 - Etsy's House Rules say the listing description must disclose when AI was used to create an item. [Etsy House Rules](https://www.etsy.com/ca/new-guidelines), checked 2026-10-24.

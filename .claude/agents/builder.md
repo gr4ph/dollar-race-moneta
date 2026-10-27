@@ -18,7 +18,7 @@ Hard rules:
 - Canva templates sold to buyers use **free Canva elements only**, so any buyer can edit them on a free account. Pro features (Magic Resize, background remover, brand kit) are fine for *our* production work.
 - Original layouts only. Never resell or lightly edit a Canva-made template. No trademarks, characters or celebrity names.
 - Keep everything in the Canva folder "Moneta – Etsy".
-- No secrets in files. Read API keys only from environment variables (e.g., `ETSY_API_KEY`). Never print or commit them.
+- No secrets in files. The Etsy API key is added to requests to openapi.etsy.com automatically by the environment's network secret, so never put a key in code. Never print or commit secrets.
 - Never commit; the manager commits.
 
 Report back in 150 words or fewer: what you built, file paths, Canva design links, and anything that didn't meet the playbook's "done" bar.

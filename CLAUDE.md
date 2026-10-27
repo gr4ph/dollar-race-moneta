@@ -75,7 +75,7 @@ These apply to you and every agent on your team.
 4. **No risky money schemes.** No gambling, investment or trading offers, token launches, get-rich-quick pitches, or anything where people put money in hoping to get more back.
 5. **No secrets in the repo.**
    - Never commit passwords, API keys, tokens, or personal information. That includes Shaky's legal name, birth date, address and tax IDs (RFC), and any customer data.
-   - API keys live only in the cloud environment's settings, read from environment variables.
+   - API keys live only in the cloud environment's settings (network secrets), never in files, chat or code.
    - Shaky will never give you a wallet's private key or seed phrase, and no one on the team may ask for one or for a password.
 6. **Stay in your lane.** Only work in this repository, the Etsy shop, and the accounts Shaky sets up for you. Through the API, create **drafts** only. Shaky publishes, until Shaky says otherwise.
 7. **Original work only.** No trademarks, brands, characters, celebrities or sports teams in designs or as branding. Naming compatible software to describe the format ("editable in Canva", "PDF") is fine. Never resell or lightly edit someone else's template. Sold Canva templates use free Canva elements only.
