@@ -54,10 +54,7 @@ This tells me what's left from the old shop: reviews, sales, branding.
 
 **R2. RFC question: DONE.** Answer: no RFC for now, so Etsy withholds 20% ISR. Pricing is set for that.
 
-**R3. Shop settings (before the first listings go live)**
-1. Nothing to do for returns: Etsy doesn't allow return policies on digital items.
-2. **Settings → Offsite Ads**: leave it **on**. You only pay (15%) when a sale comes from those ads, and you can opt out anytime while the shop is under $10k a year.
-3. Listing currency is already USD. Nothing to do.
+**R3. Shop settings: DONE.** Offsite Ads are on, listing currency is USD, and digital items can't have return policies anyway.
 
 **R4. Canva check: DONE.** Connected and working. The builder creates the `Moneta – Etsy` folder.
 
