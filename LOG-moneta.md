@@ -8,22 +8,20 @@
 
 _The manager rewrites this at the end of every session. Keep it short enough to read on a phone._
 
-- **Status:** The team is set up for the Etsy business: 4 helpers, a playbook, a fact file and a listing template. A new rulebook is waiting for your review: `drafts/CLAUDE-proposed.md`. The keyword list is in `research/keyword-candidates.md`.
-- **Net earned so far:** $0.00
-- **Pricing corrected:**
-  - With a Mexican bank, no RFC on file and USD listings, the worst case keeps only about 47% of the price minus about $0.75.
-  - The new minimum price is **$3.99**. Printables sell for $3.99–$5.99, Canva templates for $4.99–$8.99.
-- **RFC (facts only; your accountant decides):**
-  - Without an RFC, Etsy withholds **20% ISR** on sales. With one, it withholds 2.5%, plus 8% IVA only on Mexican buyers. ([Etsy help](https://help.etsy.com/hc/articles/8709142835223))
-  - With an RFC on file, Etsy sends you a CFDI for the taxes it withholds.
-  - Not confirmed yet: whether a buyer paying with PayPal on Etsy changes any of this. As far as we can tell, those payments still go through Etsy and are paid out to your bank.
-  - How Etsy's CFDIs fit with the invoices your accountant issues is for your accountant to answer (R2).
-- **Top keyword picks (still to be checked):** dog groomer holiday gift certificate, pet sitter/dog walker gift certificate, house cleaning gift certificate, craft-show price list sign, bakery Christmas cookie order form. All are editable Canva templates.
-- **Etsy AI rules:** no recipes, patterns or guides; every listing shows a real preview; you review each listing before it goes live.
+- **Status:**
+  - New rulebook **approved and live** in `CLAUDE.md`.
+  - Canva connection confirmed: the team can reach your account. The `Moneta – Etsy` folder doesn't exist yet; the builder will create it.
+  - Ready to start building as soon as keywords are checked.
+- **Net earned so far:** $0.00 · **Live listings:** 0
+- **RFC:** none, per your accountant. So we price for Etsy withholding **20% ISR** on every sale (and 16% IVA on the rare Mexican buyer).
+  - Etsy doesn't hold that 20% and release it later. It sends it to the SAT. Whether you can credit it against your own taxes, or whether it's final, is a question for your accountant. Mexican tax sites tie the "final payment" option to LISR art. 113-B.
+  - Prices: **$3.99 minimum**, Canva templates $4.99–$8.99. That leaves roughly $1.13–$3.40 per sale.
+- **Top keyword picks (still to be checked):** dog groomer, pet sitter and house cleaning holiday gift certificates; craft-show price list sign; bakery Christmas cookie order form.
 - **Decisions I need from you:**
-  1. Approve or change `drafts/CLAUDE-proposed.md`. It replaces CLAUDE.md once you say yes.
-  2. The R2 accountant answer about the RFC.
-- **New requests:** R1–R7 below. R1, R2 and R4 are needed now.
+  1. Is your Pinterest business account free to use for this shop? (See R7.)
+- **New requests:**
+  - **Now:** R1 (shop snapshot) and R5 (Etsy API key, which replaces most of R6).
+  - **Later:** R3 (one Etsy setting) and R7 (Pinterest).
 
 ## Team
 
@@ -54,29 +52,17 @@ This tells me what's left from the old shop: reviews, sales, branding.
 4. Tell me whether vacation mode is on.
 5. Tell me roughly how many minutes a week you can spend uploading listings.
 
-**R2. RFC question for your accountant (now, high priority)**
-Without an RFC, Etsy withholds 20% of every sale. Send them this:
-```
-I sell digital downloads on Etsy (mostly to US buyers). Etsy withholds 20% ISR
-when no RFC is on file, or 2.5% ISR (plus 8% IVA on Mexican buyers only) when
-an RFC is on file, and then issues a CFDI for what it withholds.
-1) Should I add my RFC in Etsy? 2) Can this income stay under my current tax
-regime, or does it need the "Plataformas Tecnológicas" regime? 3) How do Etsy's withholding
-CFDIs fit with the invoices you issue?
-```
-Then, if the answer is yes: open the Etsy screen titled **Registro Federal de Contribuyentes (RFC)** (the one showing "Taxpayer ID: Not on file"), tap **Edit**, and enter it. Don't send the RFC to the team.
+**R2. RFC question: DONE.** Answer: no RFC for now, so Etsy withholds 20% ISR. Pricing is set for that.
 
 **R3. Shop settings (before the first listings go live)**
 1. Nothing to do for returns: Etsy doesn't allow return policies on digital items.
 2. **Settings → Offsite Ads**: leave it **on**. You only pay (15%) when a sale comes from those ads, and you can opt out anytime while the shop is under $10k a year.
 3. Listing currency is already USD. Nothing to do.
 
-**R4. Canva check (now)**
-1. Confirm the Canva account connected to Claude is your Premium account.
-2. In Canva, create a folder named `Moneta – Etsy`, or let the builder create it.
+**R4. Canva check: DONE.** Connected and working. The builder creates the `Moneta – Etsy` folder.
 
-**R5. Etsy API key (after the first listings are live)**
-The key lets the team pull keyword and competitor data and later create draft listings for you to approve.
+**R5. Etsy API key (now, about 10 min, on a computer)**
+The key lets the team check keywords and competitors on Etsy itself, which we can't do today, so it replaces most of the eRank work. Later, after a one-time authorization, it lets us create draft listings for you to approve. It can't publish or spend anything.
 1. On a computer, go to **etsy.com/developers** → **Create a seller app** (for your own shop only; it's usually approved within minutes. Don't pick "personal app", which takes much longer).
 2. Read the API terms at etsy.com/legal/api before accepting. We couldn't open them from here.
 3. App name: `Moneta Shop Tools`. Description to paste:
@@ -89,13 +75,17 @@ Private tool to create draft listings and read stats for my own shop. I review a
 ```
 5. Never paste the key in chat or the repo.
 
-**R6. eRank (only if the API isn't ready yet)**
+**R6. eRank (only if Etsy rejects the API app or it doesn't work)**
 1. Go to **erank.com** → sign up free → connect your Etsy shop.
 2. Open **Keyword Tool**. For each ★ phrase in `research/keyword-candidates.md`, note the **searches, competition and CTR**, or screenshot them.
 3. Send the numbers back.
 
-**R7. Pinterest (later)**
-When listings are live, I'll send steps for a free Pinterest business account for the shop. Nothing to do yet.
+**R7. Pinterest (after the first listings are live)**
+Pinterest is a search engine for ideas, and printables and templates are a big category there. Each pin links to a listing, so it brings in buyers who aren't on Etsy.
+1. Reply: is your Pinterest business account free to use for this shop, or is it tied to another brand? Don't send the password; the team never logs in.
+2. If it's free: **Settings → Claimed accounts → Etsy → Claim** and log in to Etsy. Your listings then show as linked to your profile.
+3. Update the profile name and bio. I'll send the text to paste.
+4. For each listing, we prepare 2–3 pin images (1000×1500) plus a title, description and link. You post them by hand, a few a day. CLAUDE.md doesn't allow automated posting.
 
 ## Earlier sessions
 
@@ -120,12 +110,16 @@ Decisions:
 - **Price floor $3.99**, because Mexico processing fees, the 2.5% conversion fee and the 20% ISR without an RFC cut the net sharply.
 - **Listings via kits now, Etsy API later:** kits work today. The API saves your time later, but needs Etsy's approval.
 - **Draft-only through the API:** you stay in control of what gets published.
+- **Follow-up, same day:**
+  - You approved the rulebook, so it's now `CLAUDE.md`.
+  - No RFC, per your accountant, so pricing keeps the 20% withholding.
+  - Canva connection confirmed.
+  - API key moved to "now", because it replaces eRank for keyword checks.
 - **Rulebook rewrite kept as a draft:** CLAUDE.md is yours to approve.
 
 Next steps:
-1. Get R1, R2 and R4 back from you.
+1. Get R1 and R5 back from you.
 2. Validate the ★ keyword phrases (API or eRank), then pick the first 10 products.
 3. Builder and marketer make the first 5 listing kits, with a reviewer pass. Write the shop refresh copy (About, announcement, FAQ, banner).
-4. Once you approve it, replace CLAUDE.md with the draft.
 
 Net earned so far: $0

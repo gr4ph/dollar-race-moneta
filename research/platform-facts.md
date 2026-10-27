@@ -6,7 +6,8 @@ Each fact has a source and the date it was checked. **UNVERIFIED** means we have
 - Shop listing currency: **USD**.
 - Payouts: **MXN** to a Mexican bank via the Etsy Payment account.
 - Currency conversion: **2.5%** on top of the market rate, because the listing currency differs from the bank currency.
-- RFC: **not on file** in Etsy's tax settings.
+- RFC: **not on file** in Etsy's tax settings. Shaky's accountant says to keep it that way for now, so price for the 20% ISR withholding.
+- The 20% is sent to the SAT; Etsy doesn't release it later. Whether it can be credited or counts as a final payment (Mexican sources cite LISR art. 113-B) is for Shaky's accountant. Sources: [El Contribuyente](https://www.elcontribuyente.mx/2024/06/personas-fisicas-sin-rfc-que-operan-en-plataformas-pagan-mas-impuestos/), [Siigo](https://www.siigo.com/mx/blog/obligaciones-fiscales/regimen-plataformas-digitales-sat-obligaciones/). Checked 2026-10-27.
 
 ## Etsy fees and withholding for a Mexico-based seller
 | Item | Rate | Source | Checked |
