@@ -32,7 +32,7 @@ Use smaller models for routine work: researcher and builder on sonnet, marketer 
 1. Start from a theme: a trade, hobby or audience × a season or use.
 2. Write 5–10 phrases the way a buyer types them, for example "lash tech gift certificate template canva".
 3. For each phrase, collect demand and competition signals:
-   - **Best:** the Etsy API (`findAllListingsActive` with `keywords`): total result count, plus favorites and reviews on the top listings.
+   - **Best:** the Etsy API (`findAllListingsActive` with `keywords`): total result count, plus favorites and reviews on the top listings. Record only the numbers, not the listings' content (see §3b).
    - **Next best:** eRank numbers that Shaky sends (searches, competition, CTR).
    - **Fallback:** web search (Etsy listings in Google with review counts, Pinterest saves, lists of best-selling printables).
 4. **Keep a phrase** when it shows proof of demand (top listings have reviews, are in carts or carry a Bestseller badge) and the result count is manageable. As a rule of thumb, fewer than about 5,000 Etsy results is good, under about 20,000 is fine for a strong niche, and anything above is too broad.
@@ -44,6 +44,14 @@ Use smaller models for routine work: researcher and builder on sonnet, marketer 
 
 - Official sources first: help.etsy.com, etsy.com/legal, etsy.com/developers, canva.com/policies.
 - Every fact gets a source link and the date it was checked. Facts go in `research/platform-facts.md`.
+
+## 3b. Etsy website and API rules (everyone; from the API Terms of Use)
+
+- **Never** fetch etsy.com pages with a tool: no shop, listing, search or help pages. Bots reading the website are banned (§9). For data, use the Etsy API. For policy facts, use web search, or ask Shaky to check a page.
+- **What we may keep from the API:** only our own numbers and conclusions, such as "phrase X: about 3,200 results; top listings show reviews". Never copy other sellers' titles, descriptions, images or names into the repo. Drop raw API responses after each session.
+- **Budget:** at most 1,000 calls a day, well under Etsy's 10,000 limit. Pause between calls.
+- **Never use API data for anything except our own shop.** Never collect personal data about members or buyers.
+- **Writes:** draft listings only. Shaky publishes.
 
 ## 4. Build a printable (builder)
 

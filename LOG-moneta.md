@@ -63,6 +63,7 @@ This tells me what's left from the old shop: reviews, sales, branding.
 **R4. Canva check: DONE.** Connected and working. The builder creates the `Moneta – Etsy` folder.
 
 **R5. Etsy API key (now, about 10 min, on a computer)**
+_Status 2026-10-27: no existing app found. Shaky is creating the seller app. The API terms have been reviewed and allow our use (no AI clause). App name and description are in the chat._
 **First, check whether you already have an app:** open **etsy.com/developers/your-apps**, signed in to the shop's Etsy account.
 - **If an app is listed** and its status is approved, reuse it: skip to step 4 and use its keystring and shared secret. You can't create a second seller app while one exists.
 - **If it says pending or rejected,** tell me what it says.

@@ -63,7 +63,11 @@ Net-per-sale estimates and the price floor are in `PLAYBOOK-moneta.md` §7.
 - **Draft flow:** `createDraftListing` → `updateListing` with type="download" → `uploadListingFile` → `uploadListingImage`. Only Shaky activates a listing.
 - UNVERIFIED:
   - Whether keyword search of other shops' listings works with a seller app key alone. We'll test once the key exists.
-  - The API Terms' AI clauses (etsy.com/legal/api blocks us). Shaky should read them in a browser before accepting.
+- **API Terms of Use** (full text pasted by Shaky, 2026-10-27). They contain **no AI clause**. The points that matter for us:
+  - **§9: no scraping.** Bots may not read or analyze the Etsy website; the API is the only allowed programmatic route. We don't fetch etsy.com pages (shop, listing, search or help) with tools.
+  - **§1:** cache or store Etsy content only for reasonable periods. Never store other members' personal data. Respect sellers' rights to their own content. Be truthful about the app. Stay under 10,000 calls a day.
+  - **§4:** managing your own shop is a reasonable commercial use. Don't resell API data or access.
+  - **§2:** don't use Etsy's marks in a way that suggests endorsement. The app name "Moneta Shop Tools" doesn't use them.
 - Sources: [register a seller app](https://help.etsy.com/hc/en-us/articles/41918478450967), [listings tutorial](https://developers.etsy.com/documentation/tutorials/listings).
 
 Full researcher notes: `research/verification-notes.md`.
