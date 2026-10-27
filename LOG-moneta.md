@@ -48,13 +48,7 @@ _Shaky adds each confirmed sale here._
 
 _Open requests as numbered steps. Shaky marks each one DONE when finished._
 
-**R1. Shop snapshot (now)**
-This tells me what's left from the old shop: reviews, sales, branding.
-1. Etsy → **Shop Manager → Dashboard**: screenshot.
-2. **Shop Manager → Stats** → set the date range to "All time": screenshot.
-3. **Shop Manager → Settings → Info & Appearance**: screenshot the top (shop name, title, icon, banner).
-4. Tell me whether vacation mode is on.
-5. Tell me roughly how many minutes a week you can spend uploading listings.
+**R1. Shop snapshot: mostly answered by the API.** Created May 2023; 0 listings, 0 sales, 0 reviews; not on vacation; no title or announcement. **Still needed:** roughly how many minutes a week you can spend reviewing and publishing listings.
 
 **R2. RFC question: DONE.** Answer: no RFC for now, so Etsy withholds 20% ISR. Pricing is set for that.
 
@@ -62,31 +56,11 @@ This tells me what's left from the old shop: reviews, sales, branding.
 
 **R4. Canva check: DONE.** Connected and working. The builder creates the `Moneta – Etsy` folder.
 
-**R5. Etsy API key (now, about 10 min, on a computer)**
-_Status 2026-10-27: no existing app found. Shaky is creating the seller app. The API terms have been reviewed and allow our use (no AI clause). App name and description are in the chat._
-**First, check whether you already have an app:** open **etsy.com/developers/your-apps**, signed in to the shop's Etsy account.
-- **If an app is listed** and its status is approved, reuse it: skip to step 4 and use its keystring and shared secret. You can't create a second seller app while one exists.
-- **If it says pending or rejected,** tell me what it says.
-- **If nothing is listed,** do steps 1–5.
+**R5. Etsy API key: DONE.** Seller app created and the network secret added. Tested 2026-10-27: the ping, shop lookup and keyword search all work.
 
-Also, Shop Manager → Apps → Connected apps may still show the old Printify connection. You can disconnect it there; that page is separate from developer apps.
-
-The key lets the team check keywords and competitors on Etsy itself, which we can't do today, so it replaces most of the eRank work. Later, after a one-time authorization, it lets us create draft listings for you to approve. It can't publish or spend anything.
-1. On a computer, go to **etsy.com/developers** → **Create a seller app** (for your own shop only; it's usually approved within minutes. Don't pick "personal app", which takes much longer).
-2. Read the API terms at etsy.com/legal/api before accepting. We couldn't open them from here.
-3. App name: `Moneta Shop Tools`. Description to paste:
-```
-Private tool to create draft listings and read stats for my own shop. I review and publish every listing myself.
-```
-4. In Claude, open the environment menu in the session title bar → **Edit** → **Network secrets** → **Add secret**, and fill it in like this:
-   - **Secret type:** leave it on **Bearer**.
-   - **Allowed websites:** `openapi.etsy.com`
-   - **Path prefixes:** leave empty.
-   - **Custom headers:** change the header name to `x-api-key`, **delete the prefix** (leave it empty), and set the value to your keystring and shared secret joined by a colon, with no spaces: `<keystring>:<shared_secret>`.
-   - Open **See resolved curl example**. It should show `x-api-key: ***` and no "Bearer". Then tap **Add**.
-5. Start a new session so the secret takes effect. The key is added to Etsy API requests automatically; the team never sees it. Never paste it in chat or the repo.
-
-**R6. eRank (only if Etsy rejects the API app or it doesn't work)**
+**R6. eRank: NOT NEEDED.** The Etsy API covers keyword checks.
+<!-- old steps kept below for reference -->
+**(R6 old steps)**
 1. Go to **erank.com** → sign up free → connect your Etsy shop.
 2. Open **Keyword Tool**. For each ★ phrase in `research/keywords-seasonal.md`, note the **searches, competition and CTR**, or screenshot them.
 3. Send the numbers back.

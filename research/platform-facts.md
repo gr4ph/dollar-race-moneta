@@ -61,8 +61,8 @@ Net-per-sale estimates and the price floor are in `PLAYBOOK-moneta.md` §7.
 - **Seller app:** for your own shop only, usually approved **within minutes**. Use this one, not a "personal app", which goes through a longer review.
 - Every request needs the `x-api-key` header. Writes and private data also need OAuth 2.0 with PKCE (scopes `listings_r` and `listings_w`).
 - **Draft flow:** `createDraftListing` → `updateListing` with type="download" → `uploadListingFile` → `uploadListingImage`. Only Shaky activates a listing.
-- UNVERIFIED:
-  - Whether keyword search of other shops' listings works with a seller app key alone. We'll test once the key exists.
+- **Tested 2026-10-27 (CONFIRMED):** the network secret works. `openapi-ping`, `getShop` and keyword search (`GET /v3/application/listings/active?keywords=…`) all return HTTP 200 with the seller app key alone. Search returns a `count` of matching active listings. Example: "dog groomer gift certificate" = 53, "gift certificate template" = 31,311.
+- Our shop (via API): shop_id 43900445, created May 2023, 0 active listings, 0 sales, 0 reviews, 0 favorites, not on vacation, currency USD, no title or announcement set.
 - **API Terms of Use** (full text pasted by Shaky, 2026-10-27). They contain **no AI clause**. The points that matter for us:
   - **§9: no scraping.** Bots may not read or analyze the Etsy website; the API is the only allowed programmatic route. We don't fetch etsy.com pages (shop, listing, search or help) with tools.
   - **§1:** cache or store Etsy content only for reasonable periods. Never store other members' personal data. Respect sellers' rights to their own content. Be truthful about the app. Stay under 10,000 calls a day.
