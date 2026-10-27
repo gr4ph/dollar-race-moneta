@@ -5,7 +5,7 @@ _Session 3, 2026-10-27. The keyword lists behind this plan are `research/keyword
 ## How the catalog is built
 
 - **Product families.** We design one base layout, then make 4–8 trade or occasion versions of it. That's one design effort for many listings, and each version targets its own narrow search.
-- **Every seasonal product gets an evergreen twin.** For example, "Dog Groomer Holiday Gift Certificate" pairs with "Dog Groomer Gift Certificate". The twin keeps selling after the holiday.
+- **Every seasonal product gets an evergreen twin.** For example, "Dog Groomer Holiday Gift Certificate" pairs with "Dog Groomer Gift Certificate". The twin is meant to keep selling after the holiday; that's not yet tested.
 - **Rough mix:** about 40% seasonal and 60% evergreen once the catalog passes 50 listings.
 - **Prices:**
 
@@ -13,11 +13,11 @@ _Session 3, 2026-10-27. The keyword lists behind this plan are `research/keyword
   |---|---|
   | Single printable | $3.99–$5.99 |
   | Single Canva template | $4.99–$6.99 |
-  | Set or bundle | $7.99–$12.99 |
+  | Set or bundle | $8.99–$14.99 (3+ items); small sets $5.99–$6.99 |
 
 ## Seasonal calendar: when listings must be live
 
-Business buyers shop 2–4 weeks before consumers. Etsy also needs time to start showing new listings, so the "live by" dates are early.
+We expect business buyers to shop 2–4 weeks before consumers, and Etsy may need a few weeks to start showing new listings. Both are UNVERIFIED, so the "live by" dates are set early to be safe.
 
 | Event | Date | Live by | What we sell for it |
 |---|---|---|---|
@@ -48,7 +48,7 @@ Business buyers shop 2–4 weeks before consumers. Etsy also needs time to start
 | 6 | Holiday gift certificate: lash artist | Canva | $4.99 |
 | 7 | Holiday gift certificate: barber | Canva | $4.99 |
 | 8 | Holiday market vendor sign set (price list, payment sign, "handmade" sign) | Canva | $6.99 |
-| 9 | Craft fair vendor kit (checklist, inventory tracker, end-of-day sales log) | Printable | $5.99 |
+| 9 | Craft fair vendor kit (blank fill-in checklist, inventory tracker, end-of-day sales log; no pre-written steps) | Printable | $5.99 |
 | 10 | Holiday cookie / bakery pre-order form | Canva | $4.99 |
 | 11 | Holiday pre-order form for small businesses | Canva | $4.99 |
 | 12 | Holiday hours and closure notice set (Thanksgiving, Christmas, New Year) | Canva | $4.99 |
@@ -59,11 +59,11 @@ Business buyers shop 2–4 weeks before consumers. Etsy also needs time to start
 | # | Listing | Format | Price |
 |---|---|---|---|
 | 14 | 2027 content calendar planner for small business | Printable | $5.99 |
-| 15 | Self-employed income, expense and mileage log bundle | Printable | $5.99 |
+| 15 | Self-employed income, expense and mileage log set (copy says "not tax advice") | Printable | $5.99 |
 | 16 | Gift certificate: dog groomer (evergreen twin of #1) | Canva | $4.99 |
 | 17 | Gift certificate: house cleaning (evergreen twin of #3) | Canva | $4.99 |
 | 18 | Cleaning business price list | Canva | $4.99 |
-| 19 | Cleaning business client intake form | Canva | $4.99 |
+| 19 | Cleaning business client intake form (no health, consent or legal questions) | Canva | $4.99 |
 | 20 | Dog groomer loyalty punch card | Canva | $4.99 |
 
 **After that:**
@@ -80,4 +80,4 @@ Business buyers shop 2–4 weeks before consumers. Etsy also needs time to start
 4. **Manager:** approves the kits.
 5. **Shaky:** reviews and publishes.
 
-Until the API is connected, Shaky uploads the kits by hand, at about 5 minutes per listing.
+Until the API is connected, Shaky uploads the kits by hand, at about 5 minutes per listing (estimate).

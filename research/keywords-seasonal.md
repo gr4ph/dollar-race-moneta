@@ -54,7 +54,7 @@ Timing note: today is 2026-10-27. New listings take time to be indexed/ranked; g
 | 25 ★ | bakery christmas cookie order form template canva | canva | seasonal | home bakers take holiday pre-orders | low | form layout only; no recipes (AI recipes are banned by Etsy) |
 | 26 ★ | holiday pre order form template canva small business | canva | seasonal | small sellers collect Dec pre-orders | med | |
 | 27 | small business holiday sale social media post set canva | canva | seasonal | sellers need Nov-Dec promo posts | high | most crowded here, skip unless trade-specific |
-| 28 | black friday sale sign template editable small business | canva | seasonal | brick-and-mortar/market sellers post deals | high | peak window ends soon; low priority |
+| 28 | post thanksgiving holiday sale sign template editable small business | canva | seasonal | brick-and-mortar/market sellers post deals | high | peak window ends soon; low priority |
 | 29 | thank you card insert template small business christmas order | canva | seasonal | sellers add inserts to holiday orders | med | |
 | 30 | holiday mini session price list photographer canva template | canva | seasonal | photographers advertise Dec mini sessions | med | |
 | 31 | christmas tree farm price list sign template editable | canva | seasonal | farms/lots need price boards | low | tiny audience, peak right now |
@@ -99,5 +99,5 @@ Bundle #1, #10, #7, #9, #2, #3, #4, #12 as one "trade gift certificate" product 
 | Easter / spring 2027 | easter cookie pre order form template; spring cleaning service price list template |
 | Mother's Day 2027 | mothers day spa gift certificate template; house cleaning mothers day gift certificate; nail salon mothers day gift card template |
 | Graduation / Father's Day 2027 | barber fathers day gift certificate; car detailing gift certificate template; graduation open house sign template |
-| Back to school 2027 | tutoring price list template; after school program registration form template |
+| Back to school 2027 | tutoring price list template; after school program registration form template (blank layout, no medical or waiver text) |
 | Fall 2027 | pumpkin patch price sign template; farm stand price list sign editable; fall craft fair vendor sign set |

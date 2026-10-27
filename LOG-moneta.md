@@ -121,7 +121,7 @@ Team activity:
   - Added and checked 4 names of my own: TillAndTag is clear; ShopkeepStudio is ruled out (ShopKeep is a point-of-sale brand).
   - Wrote `BRAND-moneta.md` and `CATALOG-moneta.md`.
   - Split the keywords into seasonal and evergreen lists, as Shaky asked.
-- **Reviewer (haiku):** checked the brand, catalog and keyword files.
+- **Reviewer (haiku):** checked the brand, catalog and keyword files. It failed them on 4 blocking points, all claims stated more strongly than the research supports. All 4 are fixed, along with the non-blocking notes (pricing bands, no-advice notes on forms, an event name swapped for a generic phrase).
 
 Decisions:
 - **Small-business focus, two formats** (Canva templates first, business printables second). It fits the $3.99 minimum, narrow niches suit a new shop, and the buyer stays the same across products. Consumer home printables are parked because of low prices and entrenched competitors.
