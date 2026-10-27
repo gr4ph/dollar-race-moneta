@@ -2,6 +2,10 @@
 
 _Session 1 brainstorm (2026-10-24). This is the full analysis; the log only summarizes it._
 
+> **Update 2026-10-27:** Shaky changed the focus. This is no longer a 7-day $1 challenge but an ongoing Etsy shop business, using the plan below.
+>
+> The pricing math below assumed US-style fees and is **superseded**. The shop's bank is in Mexico (processing is 4.5% + MXN 8), Etsy charges a 2.5% currency conversion, and it withholds 20% ISR while no RFC is on file. The new minimum price is **$3.99**; see `PLAYBOOK-moneta.md` §7 and `research/platform-facts.md`.
+
 ## Constraints agreed with Shaky
 
 - A sale **counts once it shows in the Etsy shop balance**. Etsy holding part of the money in reserve doesn't matter.
@@ -59,7 +63,7 @@ _Session 1 brainstorm (2026-10-24). This is the full analysis; the log only summ
   - 3% + $0.25 payment processing
   - 15% Offsite Ads, when a sale comes from those ads
 
-  So net ≈ **0.755 × price − $0.45**. The **lowest price is $2.49** (about $1.43 net, with room for a currency-conversion fee). The main range is $2.49–$4.99, plus 1–2 bundles.
+  So net ≈ **0.755 × price − $0.45**. ~~The lowest price is $2.49~~ (superseded: the minimum is now $3.99, see the update at the top).
 - **Why:** the shop's buyers are strangers already searching on Etsy. A digital download needs no fulfillment, and the work suits AI helpers plus the Canva connector. Shaky's time goes into uploading and a few checks.
 
 ### What raises confidence (medium → medium-high)
@@ -83,7 +87,7 @@ _Session 1 brainstorm (2026-10-24). This is the full analysis; the log only summ
 - An AI-use disclosure in the description (Etsy requires it).
 - No trademarks, brands, characters or celebrity names. Original layouts only, and no resold Canva templates.
 - No fake reviews, and no reviews traded for discounts.
-- Price ≥ $2.49. Free Canva elements only.
+- Price ≥ $3.99 (was $2.49 before the Mexico fee correction). Free Canva elements only.
 
 ## Open question: how the team reaches the store
 Agents can't log in to Etsy.
