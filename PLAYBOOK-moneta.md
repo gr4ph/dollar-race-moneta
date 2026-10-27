@@ -68,7 +68,7 @@ Use smaller models for routine work: researcher and builder on sonnet, marketer 
 
 Fill in `listings/_TEMPLATE/listing.md`:
 - **Title formula** (up to 140 characters, the most important words first): `<exact buyer phrase> | <second phrase> | <format: Editable Canva Template / Printable PDF> | <use or occasion>`.
-- **Tags:** exactly 13, each 20 characters or fewer, all different, long-tail, no trademarks.
+- **Tags:** exactly 13, each 20 characters or fewer, all different, long-tail. No trademarks. Naming the format descriptively ("canva template", "editable pdf") is fine; never use it as our branding.
 - **Description:**
   1. A one-line hook saying what it is and who it's for.
   2. What you get: files, sizes, number of pages.
@@ -96,19 +96,19 @@ Facts:
 - Etsy converts to MXN with a **2.5% fee**.
 - Processing is **4.5% + MXN 8** per order.
 - Transaction fee is **6.5%**.
-- Offsite Ads take **15%**, only when a sale comes from those ads.
+- Offsite Ads take **15%**, only when a sale comes from those ads (Etsy help 360000338367).
 - Listing renewal is **$0.20** when an item sells.
 - ISR withholding is **20% while no RFC is on file**, 2.5% with one.
 - IVA is 0% on non-Mexican buyers.
 - Still unconfirmed: whether Etsy adds IVA on top of its fees. We assume it does.
 
-Rough net per sale (MXN 8 ≈ $0.45):
+Rough net per sale (conservative: MXN 8 ≈ $0.45, today ≈ $0.43; IVA on Etsy's fees assumed 16%, rate unconfirmed; the $0.20 renewal is still to be rechecked):
 
 | Price | No RFC, Offsite Ads sale (worst case) | RFC on file, normal Etsy sale |
 |---|---|---|
-| $3.99 | ≈ $1.13 | ≈ $2.53 |
-| $4.99 | ≈ $1.61 | ≈ $3.35 |
-| $6.99 | ≈ $2.55 | ≈ $5.00 |
+| $3.99 | ≈ $1.13 | ≈ $2.52 |
+| $4.99 | ≈ $1.60 | ≈ $3.34 |
+| $6.99 | ≈ $2.54 | ≈ $4.98 |
 
 Formulas: no RFC worst case ≈ 0.47 × price − $0.75; with RFC, normal sale ≈ 0.82 × price − $0.75.
 
@@ -121,6 +121,8 @@ Formulas: no RFC worst case ≈ 0.47 × price − $0.75; with RFC, normal sale �
 
 Blocking if any of these fail:
 - [ ] No trademark, brand, character, celebrity or sports-team name anywhere: title, tags, description or images.
+- [ ] No recipe, craft pattern or how-to guide product (Etsy bans AI-generated functional instructions).
+- [ ] The images show a real preview of what the buyer receives.
 - [ ] Every claim is true. No made-up reviews, sales, "bestseller" claims, fake discounts or features we don't have.
 - [ ] The AI disclosure line is in the description.
 - [ ] "Digital download, no physical item" is stated.
@@ -146,4 +148,4 @@ Blocking if any of these fail:
 
 ## 11. Customer messages
 
-Shaky forwards each message. The marketer drafts a reply within the rules: polite, short and truthful. If asked, we say AI helps run the shop. Shaky sends it. We never move a sale off Etsy.
+Shaky forwards each message. The marketer drafts a reply within the rules: polite, short and truthful. If asked, we say the shop is run by an AI team, with Shaky as its human operator. Shaky sends it. We never move a sale off Etsy.

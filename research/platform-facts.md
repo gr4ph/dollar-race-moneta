@@ -15,8 +15,8 @@ Each fact has a source and the date it was checked. **UNVERIFIED** means we have
 | Transaction fee | 6.5% of the order total | [Etsy help 115015628847](https://help.etsy.com/hc/articles/115015628847) (mentions the 6.5%) | 2026-10-27 |
 | Payment processing (Mexican bank) | **4.5% + MXN 8** per order | [Etsy help 115015628847](https://help.etsy.com/hc/articles/115015628847) | 2026-10-27 |
 | Currency conversion | 2.5% | Shop Manager → Currency screen | 2026-10-27 |
-| Offsite Ads | 15% of an order that comes from an offsite ad | general knowledge, recheck | — |
-| IVA on Etsy's own fees | **UNVERIFIED**; assumed 16% | — | — |
+| Offsite Ads | 15% of an order that comes from an offsite ad (12% once a shop has made $10k in 365 days); capped at $100 per order. Shops that have never made $10k can opt out | [Etsy help 360000338367](https://help.etsy.com/hc/articles/360000338367) | 2026-10-27 |
+| IVA on Etsy's own fees | **Charged** for Mexico shops (confirmed). The rate isn't stated; assumed **16%** (UNVERIFIED, check the first monthly statement) | [Etsy help 360040584433](https://help.etsy.com/hc/en-us/articles/360040584433-How-VAT-Is-Collected-on-Seller-Fees) | 2026-10-27 |
 | ISR withheld, valid RFC | 2.5% (individuals and legal entities; was 1% for individuals before 2026-01-01) | [Etsy help 8709142835223](https://help.etsy.com/hc/articles/8709142835223) | 2026-10-27 |
 | ISR withheld, **no RFC** | **20%** | same | 2026-10-27 |
 | IVA withheld, valid RFC | 8% on sales to buyers **in Mexico** | same | 2026-10-27 |
@@ -26,6 +26,8 @@ Each fact has a source and the date it was checked. **UNVERIFIED** means we have
 Notes:
 - The processing fee is charged on the full order total, including sales tax.
 - With an RFC on file, Etsy issues a CFDI for the taxes it withholds and pays to the SAT.
+
+- Exchange rate: about 1 USD = 18.59 MXN (third-party rate, 2026-10-27), so MXN 8 ≈ $0.43.
 
 Net-per-sale estimates and the price floor are in `PLAYBOOK-moneta.md` §7.
 
@@ -41,3 +43,26 @@ Net-per-sale estimates and the price floor are in `PLAYBOOK-moneta.md` §7.
 - Designs with Pro elements may only be sold as template links, and buyers without Pro may see watermarks. That's why we use **free elements only**.
 - Reselling Canva's own templates, or barely changed copies of them, is not allowed.
 - Source: [FitSmallBusiness](https://fitsmallbusiness.com/how-to-sell-canva-templates-on-etsy/), checked 2026-10-24.
+
+## Digital listings (confirmed, help.etsy.com, 2026-10-27)
+- Up to **5 files per listing, 20 MB each**. PDF, PNG, JPG and ZIP are allowed. A Canva template is delivered as a PDF containing the link.
+- Return or exchange policies **can't be set on digital listings**. Problems are handled case by case, and Etsy's purchase protection may still apply.
+- Sources: [add files](https://help.etsy.com/hc/en-us/articles/115015628347), [return policies](https://help.etsy.com/hc/en-us/articles/7869401615255).
+
+## Etsy rules on AI and bots (confirmed: help.etsy.com "What Can I Sell on Etsy?")
+- Disclose AI use in the listing description.
+- **Banned:** bot-generated content, AI-generated functional instructions (recipes, craft patterns, guides) and AI prompt bundles.
+- Digital items must be made or designed by the seller.
+- Reported by third parties only (UNVERIFIED): an Oct 22, 2026 update removes fully bot-generated listings and expects a visual preview of what the buyer receives.
+- **For us:** no recipe, pattern or guide products. Every listing shows real previews. **Shaky reviews each listing before it's published.**
+
+## Etsy Open API v3 (confirmed on help.etsy.com and developers.etsy.com, 2026-10-27)
+- **Seller app:** for your own shop only, usually approved **within minutes**. Use this one, not a "personal app", which goes through a longer review.
+- Every request needs the `x-api-key` header. Writes and private data also need OAuth 2.0 with PKCE (scopes `listings_r` and `listings_w`).
+- **Draft flow:** `createDraftListing` → `updateListing` with type="download" → `uploadListingFile` → `uploadListingImage`. Only Shaky activates a listing.
+- UNVERIFIED:
+  - Whether keyword search of other shops' listings works with a seller app key alone. We'll test once the key exists.
+  - The API Terms' AI clauses (etsy.com/legal/api blocks us). Shaky should read them in a browser before accepting.
+- Sources: [register a seller app](https://help.etsy.com/hc/en-us/articles/41918478450967), [listings tutorial](https://developers.etsy.com/documentation/tutorials/listings).
+
+Full researcher notes: `research/verification-notes.md`.
