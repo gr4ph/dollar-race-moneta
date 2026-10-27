@@ -1,4 +1,6 @@
-# Keyword candidates (Team Moneta, Researcher) - 2026-10-27
+# Seasonal keywords (Team Moneta)
+
+_Shaky asked for two keyword lists: this one for seasonal products, and `keywords-evergreen.md` for year-round products. This is the Researcher's original list from 2026-10-27, mostly holiday phrases. Rows #11 and #22 are evergreen and are copied into the evergreen list. Seasons further ahead are at the bottom._
 
 **How demand was judged (read this first, the signal is thin):**
 1. Signals found via web search only: blog lists of popular/underserved digital products (all seller-marketing blogs, no verified sales data), Etsy listings surfacing in search results (several near-identical Christmas gift/budget trackers at about $1-$9, and several Canva-style gift certificate bundles; no sales counts visible), and competing sellers on other marketplaces (Gumroad/Payhip) selling craft-fair vendor kits at about $6-$11.
@@ -88,3 +90,14 @@ Timing note: today is 2026-10-27. New listings take time to be indexed/ranked; g
 
 ## Rough build order suggestion (for the Manager to decide)
 Bundle #1, #10, #7, #9, #2, #3, #4, #12 as one "trade gift certificate" product family (same base layout, different wording/imagery), then #15/#16/#17 as a "holiday market vendor" family, then #25/#26, then #33. Files are made by us (Etsy requires digital items be made/designed by the seller); each listing needs a real preview image and honest AI disclosure if AI tools helped.
+
+## Later seasons: starting phrases to research before each "live by" date (see CATALOG-moneta.md)
+
+| Season | Starting phrases |
+|---|---|
+| Valentine's 2027 | massage valentines gift certificate template; couples photo mini session price list; date night gift certificate template editable |
+| Easter / spring 2027 | easter cookie pre order form template; spring cleaning service price list template |
+| Mother's Day 2027 | mothers day spa gift certificate template; house cleaning mothers day gift certificate; nail salon mothers day gift card template |
+| Graduation / Father's Day 2027 | barber fathers day gift certificate; car detailing gift certificate template; graduation open house sign template |
+| Back to school 2027 | tutoring price list template; after school program registration form template |
+| Fall 2027 | pumpkin patch price sign template; farm stand price list sign editable; fall craft fair vendor sign set |
