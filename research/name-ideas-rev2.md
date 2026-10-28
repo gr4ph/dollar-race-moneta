@@ -93,6 +93,11 @@ All 24 names are 20 characters or fewer, letters only, CamelCase, with no "Etsy"
 
 **Manager's ranking:** 1. BirchAndBench · 2. ProjectPaperCo · 3. TillAndTag
 
+**USPTO (Shaky, 2026-10-28):**
+- Searching "BirchAndBench" and "ProjectPaperCo" as single words: no results, live or dead.
+- Joined-up searches can miss marks written with spaces. The cancelled "PROJECT PAPER" mark didn't show up, for example. So the check should be repeated with spaced variants.
+- TillAndTag has dropped to 3rd in Shaky's view; the choice is between BirchAndBench and ProjectPaperCo.
+
 **Still to do before renaming:**
-1. Shaky runs the USPTO search (tmsearch.uspto.gov) on the chosen name.
+1. Shaky repeats the USPTO search with spaced variants of the chosen name.
 2. The Etsy rename screen gives the final availability check.
