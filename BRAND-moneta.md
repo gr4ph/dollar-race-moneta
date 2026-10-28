@@ -4,6 +4,9 @@ _Session 3, 2026-10-27. Waiting for Shaky's choice of name. Sources are in `rese
 
 ## Positioning (manager's decision, for Shaky to confirm)
 
+> **Update 2026-10-28:** Shaky confirmed that E2 niche printables (hobby logs and score sheets, e.g. sourdough, pickleball, tabletop RPG) stay in the catalog next to E3 small-seller templates, with room for other downloads. The "parked" note below needs revising once the name is chosen.
+
+
 **One audience, two formats:** we make templates and printables for **small businesses, makers and service pros**, such as groomers, cleaners, beauty pros, home bakers and craft-fair vendors.
 
 - **Main line: editable Canva templates.** Gift certificates, price lists, signs, order forms, intake forms, loyalty cards, thank-you inserts. Each one is made for a specific trade.
@@ -19,6 +22,12 @@ _Session 3, 2026-10-27. Waiting for Shaky's choice of name. Sources are in `rese
 **Parked:** consumer home and holiday printables, such as Christmas card trackers and chore charts. The visible demand is big, but prices are below our minimum and the market belongs to entrenched shops. We'll revisit with bundles once we have reviews.
 
 ## Name shortlist (pick one)
+
+> **Update 2026-10-28:**
+> - OpenSignStudio and LedgerAndLinen are already taken on Etsy (API check).
+> - Shaky's naming rule: the name must not box the shop into one product type. Niche hobby printables (E2) stay in scope alongside small-seller templates (E3).
+> - The current comparison and ranking (BirchAndBench, ProjectPaperCo, TillAndTag) are in `research/name-ideas-rev2.md`. The table below is the earlier shortlist, kept for comparison.
+
 
 _None of these names is trademark-cleared until Shaky's USPTO check._
 
